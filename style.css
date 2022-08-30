@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color:grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    position: relative;
+}
+
+.links{
+
+    display: flex;
+    align-items: flex-start;
+    margin-left:auto;
+    margin-top:20px;
+   
+   
+
+}
+
+
+.menu{
+    display: block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.conhecimentos,.objetivos{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header{
+    height: 100vh;
+    width: 20vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:#2F2325;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+main{
+    height: 100vh;
+    width: 75vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav.conteudo{
+    position: absolute;
+    top: 200px;
+    
+}
+.img{
+    border-radius:100%;
+    margin-bottom: 10px;
+}
+.barraLateral{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    color:azure;
+
+
+}
+.menu>a{
+    color: white;
+
+}
+
+.sobre,.sobre1{
+    margin-bottom: 10px;
+}
+
+.lista1{
+    margin-bottom: 10px;
+    display:flex;
+
+}
+
+
